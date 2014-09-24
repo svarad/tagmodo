@@ -1,0 +1,69 @@
+﻿
+ /* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  padding-top: 80px;
+  top: 5px;  
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+    .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+    }
+
+
+    @media (max-width: 768px) {
+
+      
+  /* Bump up size of carousel content */
+  .carousel-caption h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .carousel-caption h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 1.4;
+  }
+
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+    }
