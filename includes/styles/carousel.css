@@ -13,6 +13,38 @@
   z-index: 10;
 }
 
+.carousel-caption h2{
+    font-weight: normal;
+}
+
+.carousel-caption .btn-danger {
+    border-bottom:2px solid #af4451;
+    border-top:2px solid #9a3c47;
+}
+
+.carousel-caption .btn-success {
+    border-bottom:2px solid #41996c;
+    border-top:2px solid #39865f;
+}
+
+.carousel-caption .btn-info {
+    border-bottom:2px solid #098aa9;
+    border-top:2px solid #087994;
+}
+
+
+.carousel-caption > p > a {
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.caption-text {
+  background-color: black;
+  opacity: 0.4;
+
+}
+
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
@@ -54,7 +86,7 @@
     line-height: 1.4;
   }
 
-  .carousel-caption h3 {
+  .carousel-caption h2 {
     margin-bottom: 20px;
     font-size: 22px;
     line-height: 1.4;

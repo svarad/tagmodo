@@ -371,6 +371,20 @@ footer
     .collapse.in{
   		display:block !important;
 	}
+
+
+}
+
+/* Tablets */
+@media (min-width: 975px) {
+    .caption h4 {
+        font-size: 14px;
+    }
+
+    .caption p {
+        font-size: 14px;
+    }
+
 }
 
 /* Large desktop */
