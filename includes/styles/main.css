@@ -169,7 +169,7 @@ footer
 }
 
 .pricing-section {
-    background-color: #efefef;
+    background-color: #fff;
     border-bottom: 1px solid #dbdbdb;
 }
 
@@ -184,8 +184,10 @@ footer
     font-size: 24px;
 }
 
+.panel:hover { box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px 5px rgba(130, 130, 130, 0.35); }
+
 .learn-more {
-    background-color: #f7f7f7;
+    background-color: #fff;
     border-bottom: 1px solid #dbdbdb;
 
 }
@@ -213,7 +215,7 @@ footer
 
 
 .about-us {
-    background-color: #efefef;
+    background-color: #fff;
     border-bottom: 1px solid #dbdbdb;
 }
     
@@ -250,6 +252,21 @@ footer
     text-align:center;
     color:#fff !important;
     z-index:2;
+}
+
+ul.unstyled {
+	list-style: none;
+	padding: 0;
+}
+
+.colorgraph {
+  height: 5px;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
 }
 
 /* --------------------------------------

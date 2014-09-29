@@ -22,6 +22,11 @@
     border-top:2px solid #9a3c47;
 }
 
+.carousel-caption .btn-warning {
+    border-bottom:2px solid #c38a3a;
+    border-top:2px solid #ab7a33;
+}
+
 .carousel-caption .btn-success {
     border-bottom:2px solid #41996c;
     border-top:2px solid #39865f;
