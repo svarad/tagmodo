@@ -95,7 +95,7 @@ h2 {
   /*color: #5a5a5a;*/
   color: #B50C00;
   font-size: 15px;
-  font-weight: normal;
+  font-weight: bold;
   padding: 14px 10px;
   top: 10px;
   /*text-transform: uppercase;*/
@@ -110,10 +110,8 @@ h2 {
 	padding: 0px;
 }
 
-#footer {
-	text-align: center;
-    /*color: #B50C00;*/
-
+.navbar-brand img {
+    height: 50px;
 }
 
 footer 
@@ -234,6 +232,11 @@ footer
     font-size: 16px;
     margin-bottom: 13px;
 }
+
+#footer p {
+    font-size: 12px;
+}
+
 
 .thumbnail {
     position:relative;
