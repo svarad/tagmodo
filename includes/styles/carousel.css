@@ -8,7 +8,7 @@
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  padding-top: 30px;
+  padding-top: 80px;
   top: 5px;  
   z-index: 10;
 }
@@ -39,7 +39,6 @@
 
 
 .carousel-caption > p > a {
-    width: 150px;
     font-size: 20px;
     font-weight: bold;
 
