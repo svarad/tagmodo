@@ -1,0 +1,64 @@
+﻿.process-block {
+  padding: 20px 25px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.process-block .subtitle {
+  color: #999999;
+  /*font-family: 'Libre Baskerville', Georgia, 'Times New Roman', serif;*/
+  font-size: 16px;
+  font-style: italic;
+}
+.process-block:hover {
+  background-color: #B50C00;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.process-block:hover h3 {
+  color: #fff;
+}
+.process-block:hover .subtitle {
+  color: rgba(255, 255, 255, 0.6);
+}
+.process-block:hover i {
+  color: #fff;
+  /* -webkit-transition: all 0.3s linear; */
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  /* transition: all 0.3s linear; */
+}
+.process-block:hover i.fa-inverse {
+  color: #FFF;
+  /* -webkit-transition: all 0.3s linear; */
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  /* transition: all 0.3s linear; */
+}
+.process-block i.fa-circle {
+  color: #B50C00;
+  /* -webkit-transition: all 0.3s linear; */
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  /* transition: all 0.3s linear; */
+}
+#process h2 {
+  color: #B50C00;
+}
+.process {
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+
+}
+
