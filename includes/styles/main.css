@@ -116,7 +116,8 @@ h2 {
 
 footer 
 {
-    background: #333;
+    /*background: #333;*/
+    background: #444!important;
     color: #eee;
     padding: 20px; /*top right bottom left*/
 }
@@ -177,12 +178,24 @@ footer
   color: #2461AA;
 }
 
+.pricing {
+    background: url('/images/pricing-header.jpg');
+    background-repeat: repeat-x;
+}
+
+.pricing h1 {
+    color: #fff;
+    text-align: left;
+}
 .pricing-section h2 {
     color: #B50C00;
     /*font-size: 24px;*/
 }
 
-.panel:hover { box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px 5px rgba(130, 130, 130, 0.35); }
+.panel:hover { 
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px 5px rgba(130, 130, 130, 0.35); 
+
+}
 
 .learn-more {
     background-color: #fff;
@@ -234,9 +247,8 @@ footer
 }
 
 #footer p {
-    font-size: 12px;
+    font-size: 14px;
 }
-
 
 .thumbnail {
     position:relative;
@@ -257,9 +269,37 @@ footer
     z-index:2;
 }
 
+p.add-line {
+    line-height: 1.4em;
+}
+
 ul.unstyled {
 	list-style: none;
 	padding: 0;
+}
+
+ul.nostyle {
+	list-style: none;
+	padding: 0;
+
+}
+
+.nostyle li {
+    line-height: 2.4em;
+}
+
+
+.unstyled a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.unstyled a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-pills > li.active > a {
+    background-color: #FAF0E6;
 }
 
 .colorgraph {
